@@ -1,0 +1,1 @@
+Coloca aquí los archivos .txt exportados de OpenSignals (ej: basal_trapecio_andre.txt)
