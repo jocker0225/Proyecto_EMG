@@ -105,4 +105,4 @@ La aplicación se abrirá automáticamente en el navegador
 - La conversión ADC -> mV usa la resolución del ADC, el voltaje de referencia
   y la ganancia del sensor EMG de BITalino, definidas en `config.py`.
 
-# Streamlit.app: https://proyectoemg-theemgineers.streamlit.app/
+## Streamlit.app: https://proyectoemg-theemgineers.streamlit.app/
