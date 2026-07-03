@@ -98,12 +98,11 @@ La aplicación se abrirá automáticamente en el navegador
   estado de la sesión de usuario se maneja mediante `st.session_state` de
   Streamlit.
 - Los filtros se implementan con `scipy.signal` utilizando secciones de
-
-**Streamlit.app: https://proyectoemg-theemgineers.streamlit.app/
-
   segundo orden (`sosfiltfilt`) para el pasa banda, garantizando estabilidad
   numérica y fase cero.
 - El análisis espectral (`utils/espectral.py`) usa `numpy.fft`, `scipy.signal.welch`
   y `scipy.signal.spectrogram`.
 - La conversión ADC -> mV usa la resolución del ADC, el voltaje de referencia
   y la ganancia del sensor EMG de BITalino, definidas en `config.py`.
+
+# Streamlit.app: https://proyectoemg-theemgineers.streamlit.app/
